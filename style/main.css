@@ -1,0 +1,83 @@
+/*選單列*/
+#bar{
+position:fixed;
+overflow:visible;
+background-color:#1B1B1B;
+background-image:linear-gradient(to bottom,#222,#111);
+border-color:#252525;
+border-radius:0;
+border-width:0 0 1px;
+box-shadow:0 1px 10px #E5E5E5;
+font-size:16px;
+left:0;
+line-height:41px;
+margin-bottom:0;
+padding-left:0;
+padding-right:0;
+right:0;
+top:0;
+height:41px;
+color:white;
+}
+
+/*選單多放一個DIV*/
+#container{position:absolute;left:10%;top:0%;width:80%;list-style:none outside none;}
+
+/*選單項目，不包含彈跳式選單*/
+li{margin-left:auto;margin-right:auto;float:left;}
+
+/*選單連結，不包含彈跳式選單*/
+#blink{color:#CCC;float:none;padding:10px 10px;text-decoration:none;}
+#blink:hover{color:#FFF;background-color:#333;}
+
+/*看過來*/
+#stip{
+top: -2px;
+margin: 0 0 -10px 3px;
+background-color:#B94A48;
+border-radius:3px;
+font-size:11.844px;
+font-weight:700;
+line-height:14px;
+vertical-align:baseline;
+white-space:nowrap;
+text-shadow:0 -1px 0 rgba(0,0,0,.25);
+padding:2px 4px;
+color:white;
+}
+
+/*彈跳式選單*/
+#open{
+line-height:16px;
+position:absolute;
+z-index:1;
+padding:5px;
+margin:2px;
+list-style:none outside none;
+background-color:#FFF;
+border:1px solid #CCC;
+border-radius:6px;
+box-shadow:0px 5px 10px #CCC;
+clear:both;
+white-space:nowrap;
+}
+
+/*彈跳式選單內的項目*/
+#open li{color:#333;list-style:none outside none;line-height:16px;padding:5px;}
+
+/*彈跳式選單內的連結*/
+#innerlink{color:#000;text-decoration:none;padding:5px;}
+#innerlink:hover{color:white;background-color:#0086C8;}
+
+/*iframe相關*/
+#rnt{
+top:41px;
+left:0;
+flex:20 1 0%;
+height:99%;
+overflow-y:auto;
+position:fixed;
+width:100%;
+}
+
+#fme{border:0 none;bottom:0;height:99%;top:0;width:100%;}
